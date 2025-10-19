@@ -74,7 +74,7 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        // Wait for 2.5 seconds so the player can see the confetti
+        // Wait for 1.2 seconds so the player can see the confetti
         yield return new WaitForSeconds(1.2f);
 
         // Load the next level after the delay
